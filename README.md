@@ -31,6 +31,10 @@ git checkout -b NewBranch
 git checkout ExistingBranch
 git merge BranchToMerged
 ```
+### **Protect files with .gitignore**
+* In order to prevent some files from being shared, such as passwords, temp files etc, .gitignore file is used.
+* In order to keep files ~~unshared~~, file extensions should be written in *.extension format. If there is a wish to make exception, ***!filename.extension*** format is used to make that file available to commit in git.
+
 # Gitflow
 ## Main Branches
 At the core, the development model is greatly inspired by existing models out there. The central repo holds two main branches with an infinite lifetime:
