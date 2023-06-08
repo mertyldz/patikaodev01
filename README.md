@@ -7,6 +7,30 @@
 * Easier onboarding
 * Time and resource management
 * CI/CD
+## Basic Commands
+### *Config*
+---
+```
+git config --global user.name "username"
+git config --global user.email "email"
+git config --global --list
+git config core.autocrlf true
+```
+### *General Management*
+```
+git init
+git clone url
+git add
+git commit -m "message"
+git push
+git pull
+git branc
+git log
+git branch
+git checkout -b NewBranch
+git checkout ExistingBranch
+git merge BranchToMerged
+```
 # Gitflow
 ## Main Branches
 At the core, the development model is greatly inspired by existing models out there. The central repo holds two main branches with an infinite lifetime:
