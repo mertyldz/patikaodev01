@@ -24,7 +24,7 @@ git add
 git commit -m "message"
 git push
 git pull
-git branc
+git branch
 git log
 git branch
 git checkout -b NewBranch
